@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "EC77F37E-1830-465B-95CB-6A21B718EC6A"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8C20612A-7199-448D-A760-FA0194B73718"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Bottle Rocket/CollectionViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "CollectionViewCell"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "8C20612A-7199-448D-A760-FA0194B73718 - c526667e02977d09"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Bottle_Rocket.CollectionViewCell.backgroundImage.getter : Swift.Optional&lt;__C.UIImageView&gt;"
+                  moduleName = "Bottle Rocket"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tmratink/Desktop/Bottle%20Rocket/Bottle%20Rocket/CollectionViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "85">
+               </Location>
+               <Location
+                  uuid = "8C20612A-7199-448D-A760-FA0194B73718 - 640c02eda5d90115"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Bottle_Rocket.CollectionViewCell.backgroundImage.setter : Swift.Optional&lt;__C.UIImageView&gt;"
+                  moduleName = "Bottle Rocket"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tmratink/Desktop/Bottle%20Rocket/Bottle%20Rocket/CollectionViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "136">
+               </Location>
+               <Location
+                  uuid = "8C20612A-7199-448D-A760-FA0194B73718 - f244127691cbd48a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Bottle_Rocket.CollectionViewCell.backgroundImage.modify : Swift.Optional&lt;__C.UIImageView&gt;"
+                  moduleName = "Bottle Rocket"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tmratink/Desktop/Bottle%20Rocket/Bottle%20Rocket/CollectionViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "52">
+               </Location>
+               <Location
+                  uuid = "8C20612A-7199-448D-A760-FA0194B73718 - 4b1a0ceeca30120"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Bottle_Rocket.CollectionViewCell.backgroundImage.modify : Swift.Optional&lt;__C.UIImageView&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Bottle Rocket"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tmratink/Desktop/Bottle%20Rocket/Bottle%20Rocket/CollectionViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "26">
+               </Location>
+               <Location
+                  uuid = "8C20612A-7199-448D-A760-FA0194B73718 - 4573349aacac1f72"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Bottle_Rocket.CollectionViewCell.init(frame: __C.CGRect) -&gt; Bottle_Rocket.CollectionViewCell"
+                  moduleName = "Bottle Rocket"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tmratink/Desktop/Bottle%20Rocket/Bottle%20Rocket/CollectionViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "152">
+               </Location>
+               <Location
+                  uuid = "8C20612A-7199-448D-A760-FA0194B73718 - 704a8724fee73e5b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Bottle_Rocket.CollectionViewCell.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Bottle_Rocket.CollectionViewCell&gt;"
+                  moduleName = "Bottle Rocket"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tmratink/Desktop/Bottle%20Rocket/Bottle%20Rocket/CollectionViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "108">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "72DC35AE-14B7-4FF9-915E-7CD074D148DC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Bottle Rocket/CollectionViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "CollectionViewCell"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "72DC35AE-14B7-4FF9-915E-7CD074D148DC - c526667e02977db7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Bottle_Rocket.CollectionViewCell.backgroundImage.getter : Swift.Optional&lt;__C.UIImageView&gt;"
+                  moduleName = "Bottle Rocket"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tmratink/Desktop/Bottle%20Rocket/Bottle%20Rocket/CollectionViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "85">
+               </Location>
+               <Location
+                  uuid = "72DC35AE-14B7-4FF9-915E-7CD074D148DC - 640c02eda5d901ab"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Bottle_Rocket.CollectionViewCell.backgroundImage.setter : Swift.Optional&lt;__C.UIImageView&gt;"
+                  moduleName = "Bottle Rocket"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tmratink/Desktop/Bottle%20Rocket/Bottle%20Rocket/CollectionViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "136">
+               </Location>
+               <Location
+                  uuid = "72DC35AE-14B7-4FF9-915E-7CD074D148DC - f244127691cbd48a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Bottle_Rocket.CollectionViewCell.backgroundImage.modify : Swift.Optional&lt;__C.UIImageView&gt;"
+                  moduleName = "Bottle Rocket"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tmratink/Desktop/Bottle%20Rocket/Bottle%20Rocket/CollectionViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "52">
+               </Location>
+               <Location
+                  uuid = "72DC35AE-14B7-4FF9-915E-7CD074D148DC - 4b1a0ceeca3019e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Bottle_Rocket.CollectionViewCell.backgroundImage.modify : Swift.Optional&lt;__C.UIImageView&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Bottle Rocket"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tmratink/Desktop/Bottle%20Rocket/Bottle%20Rocket/CollectionViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "26">
+               </Location>
+               <Location
+                  uuid = "72DC35AE-14B7-4FF9-915E-7CD074D148DC - 4573349aacac1fcc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Bottle_Rocket.CollectionViewCell.init(frame: __C.CGRect) -&gt; Bottle_Rocket.CollectionViewCell"
+                  moduleName = "Bottle Rocket"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tmratink/Desktop/Bottle%20Rocket/Bottle%20Rocket/CollectionViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "152">
+               </Location>
+               <Location
+                  uuid = "72DC35AE-14B7-4FF9-915E-7CD074D148DC - 704a8724fee73ee5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Bottle_Rocket.CollectionViewCell.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Bottle_Rocket.CollectionViewCell&gt;"
+                  moduleName = "Bottle Rocket"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tmratink/Desktop/Bottle%20Rocket/Bottle%20Rocket/CollectionViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "108">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
