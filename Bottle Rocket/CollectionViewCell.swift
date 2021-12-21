@@ -9,16 +9,18 @@ import UIKit
 
 class CollectionViewCell: UICollectionViewCell {
     
-    
-
     @IBOutlet weak var backgroundImage: UIImageView!
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var categoryLabel: UILabel!
-    
+
     var restaurant: Restaurant? {
         didSet {
            updateView()
         }
+    }
+    
+    required init?(coder: NSCoder) {
+        super.init(coder: coder)
     }
     
     fileprivate func updateView() {
@@ -36,10 +38,5 @@ class CollectionViewCell: UICollectionViewCell {
         nameLabel.text = ""
         categoryLabel.text = ""
         backgroundImage.image = nil
-    }
-    
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        
     }
 }

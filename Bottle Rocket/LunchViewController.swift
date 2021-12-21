@@ -8,15 +8,17 @@
 import UIKit
 
 private struct Identifiers {
-    static let cell: String = "Cell"
+
     static let main: String = "Main"
     static let restaurantMap: String = "RestaurantMap"
     static let showDetails: String = "ShowDetails"
     static let collectionViewCell: String = "CollectionViewCell"
 }
 
-class LunchViewController: UICollectionViewController {
+class LunchViewController: UIViewController {
   
+    @IBOutlet weak var collectionView: UICollectionView!
+    
     private var restaurants: [Restaurant] = [] {
         didSet {
             collectionView.reloadData()
@@ -25,13 +27,11 @@ class LunchViewController: UICollectionViewController {
     
  
     @IBOutlet weak var openMapFullScreen: UIBarButtonItem!
-
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        collectionView.register(UINib(nibName: Identifiers.collectionViewCell, bundle: nil),
-        forCellWithReuseIdentifier: Identifiers.cell)
+        collectionView.delegate = self
+        collectionView.dataSource = self
         setupTabBar()
         loadData()
     }
@@ -68,7 +68,7 @@ class LunchViewController: UICollectionViewController {
 }
 
 
-extension LunchViewController: UICollectionViewDelegateFlowLayout {
+extension LunchViewController: UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         var columnNumber: CGFloat = UIDevice.current.orientation.isLandscape || UIDevice.current.userInterfaceIdiom != .phone ? 2 : 1
@@ -82,19 +82,19 @@ extension LunchViewController: UICollectionViewDelegateFlowLayout {
         return 0
     }
     
-    override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return restaurants.count
     }
     
-    override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
        
-        guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: Identifiers.cell, for: indexPath) as? CollectionViewCell else { return UICollectionViewCell() }
+        guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: Identifiers.collectionViewCell, for: indexPath) as? CollectionViewCell else { return UICollectionViewCell() }
         let item = restaurants[indexPath.row]
         cell.restaurant = item
         return cell
     }
     
-    override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         let cell = collectionView.cellForItem(at: indexPath)
         performSegue(withIdentifier: Identifiers.showDetails, sender: cell)
     }
