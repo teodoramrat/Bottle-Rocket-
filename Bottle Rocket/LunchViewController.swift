@@ -68,15 +68,7 @@ class LunchViewController: UIViewController {
 }
 
 
-extension LunchViewController: UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
-    
-    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        var columnNumber: CGFloat = UIDevice.current.orientation.isLandscape || UIDevice.current.userInterfaceIdiom != .phone ? 2 : 1
-        if !restaurants.count.isMultiple(of: 2) && indexPath.row == restaurants.count - 1 {
-            columnNumber = 1
-        }
-        return CGSize(width: view.frame.width / columnNumber, height: 180)
-    }
+extension LunchViewController: UICollectionViewDelegate, UICollectionViewDataSource {
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
         return 0
@@ -97,5 +89,16 @@ extension LunchViewController: UICollectionViewDelegate, UICollectionViewDataSou
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         let cell = collectionView.cellForItem(at: indexPath)
         performSegue(withIdentifier: Identifiers.showDetails, sender: cell)
+    }
+}
+
+extension LunchViewController: UICollectionViewDelegateFlowLayout {
+    
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+        var columnNumber: CGFloat = UIDevice.current.orientation.isLandscape || UIDevice.current.userInterfaceIdiom != .phone ? 2 : 1
+        if !restaurants.count.isMultiple(of: 2) && indexPath.row == restaurants.count - 1 {
+            columnNumber = 1
+        }
+        return CGSize(width: view.bounds.width, height: 180)
     }
 }
