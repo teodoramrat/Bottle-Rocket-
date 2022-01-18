@@ -7,6 +7,13 @@
 
 import Foundation
 
+
+extension NetworkManager {
+    func loadSomeNEtwork() {
+        print("Load network")
+    }
+}
+
 enum ResponseError: Error {
     case networkError
     case error(Error)
@@ -15,7 +22,7 @@ enum ResponseError: Error {
 struct NetworkManager {
     static func load(with url: String, completionHandler: @escaping (Result<Data, ResponseError>) -> Void) {
         guard let url = URL(string: url) else {
-            print("Wrong URL!")
+            print("URL is not valid")
             return
         }
         let session = URLSession(configuration: .default, delegate: nil, delegateQueue: .main)
