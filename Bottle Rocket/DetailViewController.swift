@@ -17,8 +17,7 @@ class DetailViewController: UIViewController, MKMapViewDelegate {
 
     @IBOutlet weak var restaurantName: UILabel!
     @IBOutlet weak var restaurantCategory: UILabel!
-    @IBOutlet weak var restaurantAddressPart1: UILabel!
-    @IBOutlet weak var restaurantAddressPart2: UILabel!
+    @IBOutlet weak var restaurantAddress: UILabel!
     @IBOutlet weak var restaurantPhone: UILabel!
     @IBOutlet weak var restaurantSocialHandler: UILabel!
     @IBOutlet weak var mapViewHeightConstraint: NSLayoutConstraint!
@@ -51,8 +50,8 @@ class DetailViewController: UIViewController, MKMapViewDelegate {
         guard let restaurant = restaurant else { return }
         restaurantName.text = restaurant.name
         restaurantCategory.text = restaurant.category
-        restaurantAddressPart1.text = restaurant.location.formattedAddress[0]
-        restaurantAddressPart2.text = restaurant.location.formattedAddress[1]
+        restaurantAddress.text = restaurant.location.formattedAddress[0]
+       + " " + restaurant.location.formattedAddress[1]
         guard let contact = restaurant.contact else { return }
         restaurantPhone.text = contact.formattedPhone
         

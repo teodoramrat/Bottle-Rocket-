@@ -116,7 +116,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "72DC35AE-14B7-4FF9-915E-7CD074D148DC"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Bottle Rocket/CollectionViewCell.swift"
@@ -128,44 +128,44 @@
             landmarkType = "3">
             <Locations>
                <Location
-                  uuid = "72DC35AE-14B7-4FF9-915E-7CD074D148DC - c526667e02977db7"
+                  uuid = "72DC35AE-14B7-4FF9-915E-7CD074D148DC - 5b2fbdba80683e68"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "Bottle_Rocket.CollectionViewCell.backgroundImage.getter : Swift.Optional&lt;__C.UIImageView&gt;"
+                  symbolName = "Bottle_Rocket.CollectionViewCell.nameLabel.getter : Swift.Optional&lt;__C.UILabel&gt;"
                   moduleName = "Bottle Rocket"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/tmratink/Desktop/Bottle%20Rocket/Bottle%20Rocket/CollectionViewCell.swift"
+                  urlString = "file:///Users/tmratink/Desktop/bottle/Bottle%20Rocket/CollectionViewCell.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "14"
-                  endingLineNumber = "14"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
                   offsetFromSymbolStart = "85">
                </Location>
                <Location
-                  uuid = "72DC35AE-14B7-4FF9-915E-7CD074D148DC - 640c02eda5d901ab"
+                  uuid = "72DC35AE-14B7-4FF9-915E-7CD074D148DC - cd972850fa13da5c"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "Bottle_Rocket.CollectionViewCell.backgroundImage.setter : Swift.Optional&lt;__C.UIImageView&gt;"
+                  symbolName = "Bottle_Rocket.CollectionViewCell.nameLabel.setter : Swift.Optional&lt;__C.UILabel&gt;"
                   moduleName = "Bottle Rocket"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/tmratink/Desktop/Bottle%20Rocket/Bottle%20Rocket/CollectionViewCell.swift"
+                  urlString = "file:///Users/tmratink/Desktop/bottle/Bottle%20Rocket/CollectionViewCell.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "14"
-                  endingLineNumber = "14"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
                   offsetFromSymbolStart = "136">
                </Location>
                <Location
-                  uuid = "72DC35AE-14B7-4FF9-915E-7CD074D148DC - f244127691cbd48a"
+                  uuid = "72DC35AE-14B7-4FF9-915E-7CD074D148DC - 2329af17282864b8"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "Bottle_Rocket.CollectionViewCell.backgroundImage.modify : Swift.Optional&lt;__C.UIImageView&gt;"
+                  symbolName = "Bottle_Rocket.CollectionViewCell.nameLabel.modify : Swift.Optional&lt;__C.UILabel&gt;"
                   moduleName = "Bottle Rocket"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/tmratink/Desktop/Bottle%20Rocket/Bottle%20Rocket/CollectionViewCell.swift"
+                  urlString = "file:///Users/tmratink/Desktop/bottle/Bottle%20Rocket/CollectionViewCell.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
@@ -173,49 +173,34 @@
                   offsetFromSymbolStart = "52">
                </Location>
                <Location
-                  uuid = "72DC35AE-14B7-4FF9-915E-7CD074D148DC - 4b1a0ceeca3019e"
+                  uuid = "72DC35AE-14B7-4FF9-915E-7CD074D148DC - b9c6562cd9b3c3b8"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "Bottle_Rocket.CollectionViewCell.backgroundImage.modify : Swift.Optional&lt;__C.UIImageView&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  symbolName = "Bottle_Rocket.CollectionViewCell.nameLabel.modify : Swift.Optional&lt;__C.UILabel&gt; with unmangled suffix &quot;.resume.0&quot;"
                   moduleName = "Bottle Rocket"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/tmratink/Desktop/Bottle%20Rocket/Bottle%20Rocket/CollectionViewCell.swift"
+                  urlString = "file:///Users/tmratink/Desktop/bottle/Bottle%20Rocket/CollectionViewCell.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "14"
-                  endingLineNumber = "14"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
                   offsetFromSymbolStart = "26">
                </Location>
                <Location
-                  uuid = "72DC35AE-14B7-4FF9-915E-7CD074D148DC - 4573349aacac1fcc"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Bottle_Rocket.CollectionViewCell.init(frame: __C.CGRect) -&gt; Bottle_Rocket.CollectionViewCell"
-                  moduleName = "Bottle Rocket"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/tmratink/Desktop/Bottle%20Rocket/Bottle%20Rocket/CollectionViewCell.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "14"
-                  endingLineNumber = "14"
-                  offsetFromSymbolStart = "152">
-               </Location>
-               <Location
-                  uuid = "72DC35AE-14B7-4FF9-915E-7CD074D148DC - 704a8724fee73ee5"
+                  uuid = "72DC35AE-14B7-4FF9-915E-7CD074D148DC - ef5f18a90dbc91ec"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "Bottle_Rocket.CollectionViewCell.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Bottle_Rocket.CollectionViewCell&gt;"
                   moduleName = "Bottle Rocket"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/tmratink/Desktop/Bottle%20Rocket/Bottle%20Rocket/CollectionViewCell.swift"
+                  urlString = "file:///Users/tmratink/Desktop/bottle/Bottle%20Rocket/CollectionViewCell.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "14"
-                  endingLineNumber = "14"
-                  offsetFromSymbolStart = "108">
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "151">
                </Location>
             </Locations>
          </BreakpointContent>
