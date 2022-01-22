@@ -105,7 +105,7 @@
                     <connections>
                         <outlet property="collectionView" destination="k0C-nF-62N" id="gke-wX-GMj"/>
                         <outlet property="openMapFullScreen" destination="dNu-av-204" id="Ra4-Iu-oZ9"/>
-                        <segue destination="V2d-hc-kdi" kind="presentation" identifier="ShowDetails" modalPresentationStyle="fullScreen" id="zKY-83-Tml"/>
+                        <segue destination="mZf-vq-X0d" kind="show" identifier="ShowDetails" id="0bi-qG-h0w"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -199,7 +199,7 @@
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="odf-rX-m51"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.26274509800000001" green="0.90980392160000001" blue="0.58431372550000005" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                         <color key="tintColor" name="AccentColor"/>
                         <constraints>
                             <constraint firstItem="6aE-4Z-oHE" firstAttribute="leading" secondItem="odf-rX-m51" secondAttribute="leading" constant="12" id="41r-ej-VWt"/>
@@ -229,7 +229,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0ir-bD-eSa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3702.898550724638" y="114.50892857142857"/>
+            <point key="canvasLocation" x="2797" y="115"/>
         </scene>
         <!--Map Restaurants-->
         <scene sceneID="XvR-Y8-YKk">
@@ -263,7 +263,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="U14-a4-wsX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4485.507246376812" y="114.50892857142857"/>
+            <point key="canvasLocation" x="3580" y="115"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="Yhd-R0-8vM">
@@ -318,25 +318,6 @@
             </objects>
             <point key="canvasLocation" x="1042.0289855072465" y="114.50892857142857"/>
         </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="Anu-bu-3Yv">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="V2d-hc-kdi" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationItem key="navigationItem" id="acM-PU-BZi"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="wye-ka-hQD">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="mZf-vq-X0d" kind="relationship" relationship="rootViewController" id="adu-A7-e45"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="tEJ-3i-V0v" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2792.753623188406" y="114.50892857142857"/>
-        </scene>
     </scenes>
     <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
     <resources>
@@ -349,7 +330,7 @@
             <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="secondaryGreen">
-            <color red="0.20392156862745098" green="0.70196078431372544" blue="0.47450980392156861" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+            <color red="0.20399999618530273" green="0.70200002193450928" blue="0.47499999403953552" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
         </namedColor>
         <namedColor name="tabBarDark">
             <color red="0.16500000655651093" green="0.16500000655651093" blue="0.16500000655651093" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

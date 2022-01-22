@@ -88,11 +88,7 @@ extension LunchViewController: UICollectionViewDelegate, UICollectionViewDataSou
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         let cell = collectionView.cellForItem(at: indexPath)
-        let detailVC = DetailViewController()
-        detailVC.restaurant = restaurants[indexPath.row]
-        navigationController?.pushViewController(detailVC, animated: true)
-        
-//        performSegue(withIdentifier: Identifiers.showDetails, sender: cell)
+        performSegue(withIdentifier: Identifiers.showDetails, sender: cell)
     }
 }
 
